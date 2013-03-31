@@ -20,7 +20,7 @@ class Banners
 
 		$board = $result->getParam('board');
 
-		if ( ! is_object($board) && ! in_array($board->shortname, ['dev', 'foolz', 'kuku']))
+		if ( ! is_object($board) || ! in_array($board->shortname, ['dev', 'foolz', 'kuku']))
 		{
 			return null;
 		}
