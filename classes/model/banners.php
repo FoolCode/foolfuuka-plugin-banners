@@ -14,7 +14,7 @@ class Banners
 
         $banners = glob(__DIR__.'/../../assets/banners/'.$board->shortname.'/*.*');
         if ($banners !== false && !empty($banners)) {
-            $plugin = $result->getObject()->getContext()->getService('plugins')->getPlugin('foolz/foolfuuka-plugin-ads-and-banners');
+            $plugin = $result->getObject()->getContext()->getService('plugins')->getPlugin('foolz/foolfuuka-plugin-banners');
 
             echo '<img src="'.$plugin->getAssetManager()->getAssetLink('banners/'.$board->shortname.'/'.basename($banners[array_rand($banners)])).'" style="float: right; display: block; margin-bottom: 3px; position: relative; bottom: 10px">';
         }
