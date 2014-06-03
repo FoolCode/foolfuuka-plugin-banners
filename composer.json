@@ -1,24 +1,24 @@
 {
-	"name": "foolz/foolfuuka-plugin-banners",
-	"type": "foolz-foolfuuka-plugin",
-	"description": "This picks random banners that can be displayed and used in themes.",
-	"version": "1.0.0",
-	"keywords": ["ads"],
-	"homepage": "http://www.foolz.us",
-	"license": "Apache-2.0",
-	"authors": [{"name": "foolz", "email": "support@foolz.us"}],
-	"support": {
-		"email": "support@foolz.us",
-		"irc": "irc://irc.irchighway.net/fooldriver"
-	},
+    "name": "foolz/foolfuuka-plugin-banners",
+    "type": "foolz-foolfuuka-plugin",
+    "description": "This picks random banners that can be displayed and used in themes.",
+    "version": "2.0.0",
+    "keywords": ["banner"],
+    "homepage": "http://www.foolz.us",
+    "license": "Apache-2.0",
+    "authors": [{"name": "foolz", "email": "support@foolz.us"}],
+    "support": {
+        "email": "support@foolz.us",
+        "irc": "irc://irc.irchighway.net/fooldriver"
+    },
 
-	"require" : {
-		"foolz/plugin": "dev"
-	},
+    "require" : {
+        "foolz/plugin": "dev"
+    },
 
-	"extra": {
-		"name": "Banners",
-		"slug": "banners",
-		"module": "foolfuuka"
-	}
+    "extra": {
+        "name": "Banners",
+        "slug": "banners",
+        "module": "foolfuuka"
+    }
 }
