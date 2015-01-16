@@ -6,7 +6,7 @@ class HHVM_Banners
 {
     public function run()
     {
-        Event::forge('Foolz\Plugin\Plugin::execute.foolz/foolfuuka-plugin-banners')
+        Event::forge('Foolz\Plugin\Plugin::execute#foolz/foolfuuka-plugin-banners')
             ->setCall(function ($result) {
                 /* @var Context $context */
                 $context = $result->getParam('context');
