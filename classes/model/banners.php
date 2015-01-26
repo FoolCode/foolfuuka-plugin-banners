@@ -1,6 +1,6 @@
 <?php
 
-namespace Foolz\Foolfuuka\Plugins\Banners\Model;
+namespace Foolz\FoolFuuka\Plugins\Banners\Model;
 
 class Banners
 {
